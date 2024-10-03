@@ -83,7 +83,7 @@ func NewDrain(options ...optionFn) (*Drain, error) {
 		MaxClusters:              1000,
 		ExtraDelimiters:          []string{},
 		ParamStr:                 "<*>",
-		ParametrizeNumericTokens: true,
+		ParametrizeNumericTokens: false,
 
 		ClustersCounter: 0,
 	}
